@@ -24,19 +24,24 @@ Projek ini adalah contoh **Progressive Web App (PWA)** sederhana bernama **Wisat
 
 ## Cara Menjalankan
 
-1. Buka projek di **VS Code**.
-2. Pastikan extension **Live Server** sudah terpasang.
-3. Klik kanan `index.html` → pilih **Open with Live Server**.
+1. Clone repositori ini:
+
+```bash
+git clone https://github.com/fx-guntur/Mengajar-Materi-PWA.git
+```
+2. Buka projek di **VS Code**.
+3. Pastikan extension **Live Server** sudah terpasang.
+4. Klik kanan `index.html` → pilih **Open with Live Server**.
 
    * Browser akan terbuka otomatis, biasanya di alamat `http://127.0.0.1:5500/` atau serupa.
-4. Pastikan **Service Worker** terdaftar di console browser.
+5. Pastikan **Service Worker** terdaftar di console browser.
 
    * Jika berhasil, akan muncul pesan:
 
      ```
      Service Worker berhasil didaftarkan
      ```
-5. Kamu bisa menambahkan aplikasi ke homescreen di perangkat mobile atau desktop.
+6. Kamu bisa menambahkan aplikasi ke homescreen di perangkat mobile atau desktop.
 
 ## Penjelasan Teknis
 
